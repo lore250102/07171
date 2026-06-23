@@ -330,6 +330,7 @@ body {
 .cat-工作时间 { background: var(--cat-hours); }
 .cat-休假 { background: var(--cat-leave); }
 .cat-工资 { background: var(--cat-wage); }
+.cat-离职结算 { background: #e53e3e; }
 
 /* Card Expanded Content */
 .card-details {
@@ -817,7 +818,7 @@ body {
     <span class="stat-label" data-i18n="statCountries">个国家</span>
   </div>
   <div class="stat-item">
-    <span class="stat-number" id="statCategories">6</span>
+    <span class="stat-number" id="statCategories">7</span>
     <span class="stat-label" data-i18n="statCategories">大类别</span>
   </div>
   <div class="stat-item">
@@ -866,6 +867,7 @@ body {
         <option value="" data-i18n="all">全部</option>
         <option value="劳动合同">劳动合同</option>
         <option value="入职离职">入职离职</option>
+        <option value="离职结算">离职结算</option>
         <option value="社保规定">社保规定</option>
         <option value="工作时间">工作时间</option>
         <option value="休假">休假</option>
@@ -1095,7 +1097,21 @@ const laborLawData = [
   // ===== NEW ZEALAND =====
   {id:"nz_001",country:"新西兰",countryCode:"NZ",flag:"🇳🇿",region:"Oceania",lawName:"Employment Relations Act 2000",article:"Section 65",category:"劳动合同",originalLanguage:"en",originalText:"An individual employment agreement must be in writing and must contain a description of the work to be performed, an indication of where the employee is to perform the work, and the agreed hours of work.",chineseTranslation:"个人雇佣协议必须以书面形式订立，须包含工作描述、工作地点和约定的工作时间。",officialUrl:"https://www.legislation.govt.nz/act/public/2000/0024/latest/DLM58317.html",lastUpdated:"2025-04-01",importance:"high",history:[{date:"2020-01-01",change:"收录书面合同义务"},{date:"2025-04-01",change:"增加弹性工作安排讨论义务"}]},
   {id:"nz_002",country:"新西兰",countryCode:"NZ",flag:"🇳🇿",region:"Oceania",lawName:"Holidays Act 2003",article:"Section 16",category:"休假",originalLanguage:"en",originalText:"After the end of each completed 12 months of continuous employment, an employee is entitled to not less than 4 weeks' paid annual holidays.",chineseTranslation:"每满12个月连续雇佣后，雇员有权享有不少于4周的带薪年假。",officialUrl:"https://www.legislation.govt.nz/act/public/2003/0129/latest/DLM236386.html",lastUpdated:"2025-04-01",importance:"high",history:[{date:"2020-01-01",change:"收录年假规定"},{date:"2025-04-01",change:"确认4周最低年假"}]},
-  {id:"nz_003",country:"新西兰",countryCode:"NZ",flag:"🇳🇿",region:"Oceania",lawName:"Minimum Wage Act 1983",article:"Section 4",category:"工资",originalLanguage:"en",originalText:"Every worker who is not a worker to whom a training minimum wage applies is entitled to receive from their employer payment for their work at not less than the minimum adult rate.",chineseTranslation:"每位非培训工资适用的劳动者有权从雇主处获得不低于成人最低工资标准的报酬。",officialUrl:"https://www.legislation.govt.nz/act/public/1983/0115/latest/DLM74093.html",lastUpdated:"2025-04-01",importance:"high",history:[{date:"2024-04-01",change:"最低工资提高至23.15新西兰元/小时"},{date:"2025-04-01",change:"2025年最低工资提高至23.50新西兰元/小时"}]}
+  {id:"nz_003",country:"新西兰",countryCode:"NZ",flag:"🇳🇿",region:"Oceania",lawName:"Minimum Wage Act 1983",article:"Section 4",category:"工资",originalLanguage:"en",originalText:"Every worker who is not a worker to whom a training minimum wage applies is entitled to receive from their employer payment for their work at not less than the minimum adult rate.",chineseTranslation:"每位非培训工资适用的劳动者有权从雇主处获得不低于成人最低工资标准的报酬。",officialUrl:"https://www.legislation.govt.nz/act/public/1983/0115/latest/DLM74093.html",lastUpdated:"2025-04-01",importance:"high",history:[{date:"2024-04-01",change:"最低工资提高至23.15新西兰元/小时"},{date:"2025-04-01",change:"2025年最低工资提高至23.50新西兰元/小时"}]},
+
+  // ===== 离职结算 =====
+  {id:"jp_005",country:"日本",countryCode:"JP",flag:"🇯🇵",region:"Asia",lawName:"労働基準法 (Labor Standards Act)",article:"第8条",category:"离职结算",originalLanguage:"ja",originalText:"使用者は、労働者が退職した場合において、当該労働者の請求に応じ、遅滞なく賃金を支払わなければならない。",chineseTranslation:"雇主在劳动者退职时，应根据劳动者的请求及时支付工资。退职时的结算方法按政令规定办理。",officialUrl:"https://laws.e-gov.go.jp/law/s22bo049/020000000000089000",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录退职结算规定"},{date:"2026-05-28",change:"确认退职金支付义务"}]},
+  {id:"jp_006",country:"日本",countryCode:"JP",flag:"🇯🇵",region:"Asia",lawName:"中小企業退職金共済法 (Small and Medium Enterprise Retirement Allowance Mutual Aid Act)",article:"第1条",category:"离职结算",originalLanguage:"ja",originalText:"中小企業の労働者の退職金の支払を確保するため、中小企業退職金共済事業について規定する。",chineseTranslation:"为确保中小企业劳动者的退职金支付，对中小企业退职金共济事业作出规定。",officialUrl:"https://www.chuikyo.or.jp/",lastUpdated:"2026-05-28",importance:"medium",history:[{date:"2020-01-01",change:"收录退职金共济制度"},{date:"2026-05-28",change:"确认制度继续有效"}]},
+  {id:"kr_005",country:"韩国",countryCode:"KR",flag:"🇰🇷",region:"Asia",lawName:"근로기준법 (Labor Standards Act)",article:"제8조",category:"离职结算",originalLanguage:"ko",originalText:"사용자는 근로자가 사망 또는 퇴직한 경우에는 그 지급사유가 발생한 때부터 14일 이내에 임금, 보상금, 그 밖에 일체의 금품을 지급하여야 한다.",chineseTranslation:"雇主在劳动者死亡或退职时，须自退职之日起14天内支付工资、补偿金及其他一切款项。",officialUrl:"https://www.law.go.kr/법령/근로기준법",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录退职结算时限"},{date:"2026-05-28",change:"确认14天内结算义务"}]},
+  {id:"kr_006",country:"韩国",countryCode:"KR",flag:"🇰🇷",region:"Asia",lawName:"고용보험법 (Employment Insurance Act)",article:"제38조",category:"离职结算",originalLanguage:"ko",originalText:"피보험자가 실직한 경우에 대통령령으로 정하는 수당을 지급한다.",chineseTranslation:"当被保险者失业时，按总统令规定支付津贴。失业原因等导致的支付详细标准按总统令规定办理。",officialUrl:"https://www.law.go.kr/법령/고용보험법",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录失业津贴规定"},{date:"2026-05-28",change:"确认雇佣保险制度"}]},
+  {id:"de_005",country:"德国",countryCode:"DE",flag:"🇩🇪",region:"Europe",lawName:"Bürgerliches Gesetzbuch (Civil Code)",article:"§9",category:"离职结算",originalLanguage:"de",originalText:"Hat der Arbeitgeber das Arbeitsverhältnis gekündigt, so kann der Arbeitnehmer eine Abfindung verlangen, wenn ein Betriebsrat besteht und der Arbeitnehmer das 40. Lebensjahr vollendet hat und das Arbeitsverhältnis mindestens 15 Jahre bestanden hat.",chineseTranslation:"如雇主解雇劳动关系，当存在企业委员会、劳动者已满40岁且劳动关系至少存在15年时，劳动者可以要求遣散费。",officialUrl:"https://www.gesetze-im-internet.de/bgb/__9.html",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录遣散费请求权"},{date:"2026-05-28",change:"确认遣散费条件"}]},
+  {id:"de_006",country:"德国",countryCode:"DE",flag:"🇩🇪",region:"Europe",lawName:"Kündigungsschutzgesetz (Protection Against Dismissal Act)",article:"§1",category:"离职结算",originalLanguage:"de",originalText:"Wird ein Arbeitnehmer entgegen § 102 BetrVG ohne Anhörung des Betriebsrats gekündigt, so ist die Kündigung unwirksam.",chineseTranslation:"如雇主未听取企业委员会意见而解雇雇员，该解雇无效。雇主须在解雇前听取企业委员会意见。",officialUrl:"https://www.gesetze-im-internet.de/kschg/BJNR002750969.html",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录企业委员会听证要求"},{date:"2026-05-28",change:"确认程序性保护"}]},
+  {id:"fr_005",country:"法国",countryCode:"FR",flag:"🇫🇷",region:"Europe",lawName:"Code du travail (Labor Code)",article:"L1234-9",category:"离职结算",originalLanguage:"fr",originalText:"Le salarié licencié a droit à une indemnité de licenciement dont le montant est fixé par la convention collective applicable ou, à défaut, par les dispositions du présent article.",chineseTranslation:"被解雇的雇员有权获得解雇补偿金，其金额由适用的集体协议规定，或在无集体协议的情况下，由本条规定确定。",officialUrl:"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902702",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录解雇补偿金权利"},{date:"2026-05-28",change:"确认补偿金计算标准"}]},
+  {id:"fr_006",country:"法国",countryCode:"FR",flag:"🇫🇷",region:"Europe",lawName:"Code du travail (Labor Code)",article:"R1234-1",category:"离职结算",originalLanguage:"fr",originalText:"Pour les salariés ayant une ancienneté d'au moins huit mois dans une entreprise employant au moins onze salariés, l'indemnité prévue à l'article L. 1234-9 ne peut être inférieure à un quart de mois de salaire par année d'ancienneté.",chineseTranslation:"对于在雇用至少11名员工的企业中拥有至少8个月工龄的雇员，L.1234-9条规定的补偿金不得低于按工龄计算的四分之一月薪。",officialUrl:"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902703",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录最低补偿金标准"},{date:"2026-05-28",change:"确认计算公式"}]},
+  {id:"uk_005",country:"英国",countryCode:"GB",flag:"🇬🇧",region:"Europe",lawName:"Employment Rights Act 1996",article:"Section 135",category:"离职结算",originalLanguage:"en",originalText:"An employee who is dismissed by reason of redundancy is entitled to a redundancy payment if he has been continuously employed for not less than two years.",chineseTranslation:"因冗余被解雇的雇员，如连续受雇不少于两年，有权获得遣散费。",officialUrl:"https://www.legislation.gov.uk/ukpga/1996/18/part/XI",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录遣散费领取资格"},{date:"2026-05-28",change:"确认两年任职要求"}]},
+  {id:"uk_006",country:"英国",countryCode:"GB",flag:"🇬🇧",region:"Europe",lawName:"Employment Rights Act 1996",article:"Section 136",category:"离职结算",originalLanguage:"en",originalText:"The amount of a redundancy payment is calculated by reference to the employee's age, weekly pay and length of continuous employment.",chineseTranslation:"遣散费的金额根据雇员的年龄、周薪和连续受雇时间计算。",officialUrl:"https://www.legislation.gov.uk/ukpga/1996/18/part/XI",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录遣散费计算方法"},{date:"2026-05-28",change:"确认计算公式"}]},
+  {id:"sg_005",country:"新加坡",countryCode:"SG",flag:"🇸🇬",region:"Asia",lawName:"Employment Act",article:"Section 10",category:"离职结算",originalLanguage:"en",originalText:"An employee who is dismissed for redundancy or by reason of restructuring of the employer's business shall be entitled to retrenchment benefits or ex-gratia payment as may be agreed upon.",chineseTranslation:"因冗余或雇主业务重组而被解雇的雇员，有权获得裁员福利或酌情支付。",officialUrl:"https://www.mom.gov.sg/employment-practices/termination-and-retrenchment",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录裁员福利规定"},{date:"2026-05-28",change:"确认裁员补偿标准"}]},
+  {id:"sg_006",country:"新加坡",countryCode:"SG",flag:"🇸🇬",region:"Asia",lawName:"Central Provident Fund Act",article:"Section 19",category:"离职结算",originalLanguage:"en",originalText:"A member who has ceased employment may withdraw his CPF savings subject to the conditions and limits set out in the Third Schedule.",chineseTranslation:"已停止就业的会员可按第三附表规定的条件和限额提取其公积金储蓄。",officialUrl:"https://www.cpf.gov.sg/",lastUpdated:"2026-05-28",importance:"high",history:[{date:"2020-01-01",change:"收录公积金提取规定"},{date:"2026-05-28",change:"确认停止就业后提取条件"}]}
 ];
 
 // ============ I18N ============
@@ -1481,7 +1497,7 @@ function updateCompare() {
   const data1 = laborLawData.filter(d => d.country === c1);
   const data2 = laborLawData.filter(d => d.country === c2);
 
-  const categories = ['劳动合同', '入职离职', '社保规定', '工作时间', '休假', '工资'];
+  const categories = ['劳动合同', '入职离职', '离职结算', '社保规定', '工作时间', '休假', '工资'];
 
   const item1 = data1[0] || {};
   const item2 = data2[0] || {};
