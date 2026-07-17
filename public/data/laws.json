@@ -3,7 +3,7 @@
     {
       "id": "jp_001",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动契约法",
       "article": "第16条",
       "category": "解雇权滥用",
@@ -19,7 +19,7 @@
     {
       "id": "jp_002",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第20条",
       "category": "解雇预告",
@@ -35,7 +35,7 @@
     {
       "id": "jp_003",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第19条",
       "category": "工伤保护",
@@ -51,7 +51,7 @@
     {
       "id": "jp_004",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动契约法",
       "article": "第19条",
       "category": "有期雇佣合同",
@@ -67,7 +67,7 @@
     {
       "id": "kr_001",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第23条",
       "category": "正当理由要求",
@@ -83,7 +83,7 @@
     {
       "id": "kr_002",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第24条",
       "category": "经营上理由解雇",
@@ -99,7 +99,7 @@
     {
       "id": "kr_003",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第26条",
       "category": "解雇预告",
@@ -115,7 +115,7 @@
     {
       "id": "kr_004",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第27条",
       "category": "解雇理由书面通知",
@@ -131,7 +131,7 @@
     {
       "id": "de_001",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "社会法典第三编",
       "article": "第1条",
       "category": "失业保险基本原则",
@@ -147,7 +147,7 @@
     {
       "id": "de_002",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "德国民法典",
       "article": "第622条",
       "category": "雇佣关系终止",
@@ -163,7 +163,7 @@
     {
       "id": "de_003",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "保护性解雇法",
       "article": "第1条",
       "category": "解雇需有正当理由",
@@ -179,7 +179,7 @@
     {
       "id": "de_004",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "保护性解雇法",
       "article": "第9条",
       "category": "社会计划",
@@ -195,7 +195,7 @@
     {
       "id": "fr_001",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国劳动法典",
       "article": "第L1231-1条",
       "category": "劳动合同定义",
@@ -211,7 +211,7 @@
     {
       "id": "fr_002",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国劳动法典",
       "article": "第L1232-1条",
       "category": "解雇的有效性",
@@ -227,7 +227,7 @@
     {
       "id": "fr_003",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国劳动法典",
       "article": "第L1234-1条",
       "category": "解雇预告期",
@@ -243,7 +243,7 @@
     {
       "id": "fr_004",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国社会保障法典",
       "article": "第L161-1条",
       "category": "社保制度",
@@ -259,7 +259,7 @@
     {
       "id": "uk_001",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "就业权法",
       "article": "第86条",
       "category": "解雇预告权利",
@@ -275,7 +275,7 @@
     {
       "id": "uk_002",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "就业权法",
       "article": "第98条",
       "category": "不公正解雇",
@@ -291,7 +291,7 @@
     {
       "id": "uk_003",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "就业权法",
       "article": "第108条",
       "category": "不公正解雇资格",
@@ -307,7 +307,7 @@
     {
       "id": "uk_004",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "国家保险贡献法 2015",
       "article": "第1条",
       "category": "社保制度",
@@ -323,7 +323,7 @@
     {
       "id": "sg_001",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "就业法",
       "article": "第12条",
       "category": "终止雇佣",
@@ -339,7 +339,7 @@
     {
       "id": "sg_002",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "就业法",
       "article": "第12(3)条",
       "category": "解雇补偿",
@@ -355,7 +355,7 @@
     {
       "id": "sg_003",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "员工公积金法",
       "article": "第7条",
       "category": "社保制度",
@@ -371,7 +371,7 @@
     {
       "id": "sg_004",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "就业法",
       "article": "第4条",
       "category": "工作时间",
@@ -387,7 +387,7 @@
     {
       "id": "jp_005",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第8条",
       "category": "离职结算",
@@ -403,7 +403,7 @@
     {
       "id": "jp_006",
       "country": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "退职金确保法",
       "article": "第1条",
       "category": "离职结算",
@@ -419,7 +419,7 @@
     {
       "id": "kr_005",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "劳动基准法",
       "article": "第8条",
       "category": "离职结算",
@@ -435,7 +435,7 @@
     {
       "id": "kr_006",
       "country": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "law_name": "雇佣保险法",
       "article": "第38条",
       "category": "离职结算",
@@ -451,7 +451,7 @@
     {
       "id": "de_005",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "德国民法典",
       "article": "第9条",
       "category": "离职结算",
@@ -467,7 +467,7 @@
     {
       "id": "de_006",
       "country": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "解雇保护法",
       "article": "第1条",
       "category": "离职结算",
@@ -483,7 +483,7 @@
     {
       "id": "fr_005",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国劳动法典",
       "article": "第L1234-9条",
       "category": "离职结算",
@@ -499,7 +499,7 @@
     {
       "id": "fr_006",
       "country": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "法国劳动法典",
       "article": "第R1234-1条",
       "category": "离职结算",
@@ -515,7 +515,7 @@
     {
       "id": "uk_005",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "就业权法",
       "article": "第135条",
       "category": "离职结算",
@@ -531,7 +531,7 @@
     {
       "id": "uk_006",
       "country": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "law_name": "就业权法",
       "article": "第136条",
       "category": "离职结算",
@@ -547,7 +547,7 @@
     {
       "id": "sg_005",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "就业法",
       "article": "第10条",
       "category": "离职结算",
@@ -563,7 +563,7 @@
     {
       "id": "sg_006",
       "country": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "公积金法",
       "article": "第19条",
       "category": "离职结算",
@@ -579,7 +579,7 @@
     {
       "id": "my_001",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "1955年雇佣法令",
       "article": "Section 60E",
       "category": "休假",
@@ -596,7 +596,7 @@
     {
       "id": "my_002",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "1955年雇佣法令",
       "article": "Section 60F",
       "category": "休假",
@@ -613,7 +613,7 @@
     {
       "id": "my_003",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "2022年雇佣（修正）法令",
       "article": "Act A1651",
       "category": "休假",
@@ -630,7 +630,7 @@
     {
       "id": "my_004",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "2022年雇佣（修正）法令",
       "article": "Act A1651",
       "category": "休假",
@@ -647,7 +647,7 @@
     {
       "id": "my_005",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "公司政策（非法定强制）",
       "article": "N/A",
       "category": "休假",
@@ -664,7 +664,7 @@
     {
       "id": "my_006",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "公司政策（非法定强制）",
       "article": "N/A",
       "category": "休假",
@@ -681,7 +681,7 @@
     {
       "id": "my_007",
       "country": "马来西亚",
-      "region": "Asia",
+      "region": "东南亚地区",
       "law_name": "公司政策（非法定强制）",
       "article": "N/A",
       "category": "休假",
@@ -773,7 +773,7 @@
     {
       "id": "country_001",
       "country_name": "日本",
-      "region": "Asia",
+      "region": "东亚地区",
       "flag": "🇯🇵",
       "official_legal_website": "https://laws.e-gov.go.jp/",
       "labor_dept_url": "https://www.mhlw.go.jp/",
@@ -783,7 +783,7 @@
     {
       "id": "country_002",
       "country_name": "韩国",
-      "region": "Asia",
+      "region": "东亚地区",
       "flag": "🇰🇷",
       "official_legal_website": "https://www.law.go.kr/",
       "labor_dept_url": "https://www.moel.go.kr/",
@@ -793,7 +793,7 @@
     {
       "id": "country_003",
       "country_name": "德国",
-      "region": "Europe",
+      "region": "西欧地区",
       "flag": "🇩🇪",
       "official_legal_website": "https://www.gesetze-im-internet.de/",
       "labor_dept_url": "https://www.bmas.bund.de/",
@@ -803,7 +803,7 @@
     {
       "id": "country_004",
       "country_name": "法国",
-      "region": "Europe",
+      "region": "西欧地区",
       "flag": "🇫🇷",
       "official_legal_website": "https://www.legifrance.gouv.fr/",
       "labor_dept_url": "https://travail-emploi.gouv.fr/",
@@ -813,7 +813,7 @@
     {
       "id": "country_005",
       "country_name": "英国",
-      "region": "Europe",
+      "region": "西欧地区",
       "flag": "🇬🇧",
       "official_legal_website": "https://www.legislation.gov.uk/",
       "labor_dept_url": "https://www.gov.uk/government/organisations/department-for-work-pensions",
@@ -823,7 +823,7 @@
     {
       "id": "country_006",
       "country_name": "新加坡",
-      "region": "Asia",
+      "region": "东南亚地区",
       "flag": "🇸🇬",
       "official_legal_website": "https://www.statutes.agc.gov.sg/",
       "labor_dept_url": "https://www.mom.gov.sg/",
