@@ -19,21 +19,108 @@ interface LawCardProps {
   };
 }
 
+/**
+ * 中文国家名 → 🇺🇳 国旗 emoji。
+ * 覆盖当前项目 regions.ts 定义的全部国家。
+ */
+const COUNTRY_FLAGS: Record<string, string> = {
+  // 东南亚
+  新加坡: '🇸🇬',
+  泰国: '🇹🇭',
+  马来西亚: '🇲🇾',
+  越南: '🇻🇳',
+  菲律宾: '🇵🇭',
+  柬埔寨: '🇰🇭',
+  缅甸: '🇲🇲',
+  // 东亚
+  日本: '🇯🇵',
+  韩国: '🇰🇷',
+  中国台湾: '🇹🇼',
+  中国香港: '🇭🇰',
+  // 南亚
+  印度: '🇮🇳',
+  尼泊尔: '🇳🇵',
+  孟加拉: '🇧🇩',
+  斯里兰卡: '🇱🇰',
+  // 印尼 / 澳新
+  印尼: '🇮🇩',
+  澳大利亚: '🇦🇺',
+  // 独联体
+  俄罗斯: '🇷🇺',
+  哈萨克斯坦: '🇰🇿',
+  阿塞拜疆: '🇦🇿',
+  乌兹别克斯坦: '🇺🇿',
+  // 东北欧
+  罗马尼亚: '🇷🇴',
+  波兰: '🇵🇱',
+  芬兰: '🇫🇮',
+  匈牙利: '🇭🇺',
+  乌克兰: '🇺🇦',
+  塞尔维亚: '🇷🇸',
+  希腊: '🇬🇷',
+  捷克: '🇨🇿',
+  瑞典: '🇸🇪',
+  立陶宛: '🇱🇹',
+  波黑: '🇧🇦',
+  北马其顿: '🇲🇰',
+  摩尔多瓦: '🇲🇩',
+  克罗地亚: '🇭🇷',
+  保加利亚: '🇧🇬',
+  斯洛伐克: '🇸🇰',
+  斯洛文尼亚: '🇸🇮',
+  // 西欧
+  奥地利: '🇦🇹',
+  英国: '🇬🇧',
+  瑞士: '🇨🇭',
+  卢森堡: '🇱🇺',
+  法国: '🇫🇷',
+  德国: '🇩🇪',
+  意大利: '🇮🇹',
+  荷兰: '🇳🇱',
+  西班牙: '🇪🇸',
+  比利时: '🇧🇪',
+  葡萄牙: '🇵🇹',
+  // 中东
+  巴基斯坦: '🇵🇰',
+  土耳其: '🇹🇷',
+  阿联酋: '🇦🇪',
+  卡塔尔: '🇶🇦',
+  沙特阿拉伯: '🇸🇦',
+  伊拉克: '🇮🇶',
+  约旦: '🇯🇴',
+  阿曼: '🇴🇲',
+  // 非洲
+  埃及: '🇪🇬',
+  肯尼亚: '🇰🇪',
+  摩洛哥: '🇲🇦',
+  南非: '🇿🇦',
+  尼日利亚: '🇳🇬',
+  突尼斯: '🇹🇳',
+  坦桑尼亚: '🇹🇿',
+  // 美国
+  美国: '🇺🇸',
+  // 拉美
+  墨西哥: '🇲🇽',
+  秘鲁: '🇵🇪',
+  智利: '🇨🇱',
+  巴西: '🇧🇷',
+  阿根廷: '🇦🇷',
+  哥伦比亚: '🇨🇴',
+  危地马拉: '🇬🇹',
+  玻利维亚: '🇧🇴',
+  哥斯达黎加: '🇨🇷',
+  萨尔瓦多: '🇸🇻',
+  厄瓜多尔: '🇪🇨',
+  多米尼加: '🇩🇴',
+  洪都拉斯: '🇭🇳',
+  尼加拉瓜: '🇳🇮',
+};
+
 export default function LawCard({ law }: LawCardProps) {
   const [expanded, setExpanded] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  const getCountryFlag = (country: string) => {
-    const flags: { [key: string]: string } = {
-      日本: '🇯🇵',
-      韩国: '🇰🇷',
-      德国: '🇩🇪',
-      法国: '🇫🇷',
-      英国: '🇬🇧',
-      新加坡: '🇸🇬',
-    };
-    return flags[country] || '🌍';
-  };
+  const getCountryFlag = (country: string) => COUNTRY_FLAGS[country] || '🌍';
 
   const getImportanceColor = (importance: string) => {
     switch (importance) {
@@ -54,12 +141,8 @@ export default function LawCard({ law }: LawCardProps) {
   };
 
   const getStatusText = (status: string) => {
-    if (status === 'verified') {
-      return '已验证';
-    }
-    if (status === 'ai_draft') {
-      return 'AI初译';
-    }
+    if (status === 'verified') return '已验证';
+    if (status === 'ai_draft') return 'AI初译';
     return '待审';
   };
 
